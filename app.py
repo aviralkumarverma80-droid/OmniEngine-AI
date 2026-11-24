@@ -16,7 +16,7 @@ ROOT=Path(__file__).resolve().parent
 load_dotenv(ROOT/'.env')
 DB=ROOT/'local.sqlite3'
 PROVIDERS={
- 'gemini':('Gemini','GEMINI','gemini-2.5-flash'),
+ 'gemini':('Gemini','GEMINI','gemini-3.8-flash'),
  'openai':('ChatGPT','OPENAI','gpt-4o-mini'),
  'anthropic':('Claude','ANTHROPIC','claude-sonnet-4-6'),
  'xai':('Grok','XAI','grok-4.7'),
